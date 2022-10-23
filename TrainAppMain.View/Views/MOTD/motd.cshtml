@@ -1,8 +1,15 @@
-﻿@page
-
+﻿
+@model DailyMOTDRespondDTO;
+@using Commons;
 @{
-
 }
 
-
-   <p>serwis1</p> 
+    
+@using (Html.BeginForm("MotdShow", "MOTD", FormMethod.Post))
+                    {                    
+    <input id = "Submit" type = "submit" value = "submit" />
+    <h2>Press submit to show MOTD</h2>     
+    <p>Author: @Html.DisplayFor(x=>x.a)</p>
+    <p>Message: @Html.DisplayFor(x=>x.q)</p>
+    <p>H: @Html.DisplayFor(x=>x.h)</p>
+                    }

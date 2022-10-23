@@ -5,9 +5,9 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainAppMOTD.API", "TrainAppMOTD.API\TrainAppMOTD.API.csproj", "{799ABEB2-6AE2-45CD-A479-12372D24D96A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{4748EEA4-04C5-44D4-9DB4-0F0A59D47A07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commons", "Common\Commons.csproj", "{4748EEA4-04C5-44D4-9DB4-0F0A59D47A07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainAppMain.View", "TrainAppMain.View\TrainAppMain.View.csproj", "{241D5ACB-2F18-43E9-90D8-98B593EA1211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainAppMain.View", "TrainAppMain.View\TrainAppMain.View.csproj", "{241D5ACB-2F18-43E9-90D8-98B593EA1211}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

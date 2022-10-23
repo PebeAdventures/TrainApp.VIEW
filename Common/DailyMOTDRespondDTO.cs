@@ -1,7 +1,12 @@
-﻿namespace Common
+﻿namespace Commons
 {
-    public class Class1
+    public class DailyMOTDRespondDTO
     {
+
+
+        public string q { get; set; }
+        public string a { get; set; }
+        public string h { get; set; }
 
     }
 }
